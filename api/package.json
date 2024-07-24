@@ -1,11 +1,14 @@
 {
   "name": "api",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": "true",
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.19.2"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
 }

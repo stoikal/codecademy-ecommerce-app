@@ -4,7 +4,9 @@
   "private": "true",
   "scripts": {},
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -14,5 +16,5 @@
   "engines": {
     "node": "20",
     "npm": "10"
-  },
+  }
 }
